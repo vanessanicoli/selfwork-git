@@ -6,3 +6,8 @@
     text-shadow: 10px 5px 5px black;
     z-index: 10;
 }
+
+.overlay {
+  background: rgba(0,0,0,0.5);
+  z-index: 5;
+}
