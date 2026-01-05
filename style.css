@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .header-custom {
     overflow: hidden;
 }
@@ -10,4 +14,20 @@
 .overlay {
   background: rgba(0,0,0,0.5);
   z-index: 5;
+}
+
+@media screen and (max-width: 600px) {
+    .header-custom {
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./media/remote_b&w.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .hero-content {
+        top: 10%;
+    }
+
+    .overlay {
+        background: none;
+    }
 }
