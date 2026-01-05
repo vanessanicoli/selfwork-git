@@ -4,17 +4,13 @@ body {
 }
 
 /* NAVBAR */
-.nav-custom {
-    height: 10vh;
-}
-
 .logo {
     width: 35px;
 }
 
 /* HEADER */
 .header-custom {
-    margin-top: 10vh;
+    margin-top: 8vh;
     overflow: hidden;
     height: 90vh;
 }
@@ -41,6 +37,16 @@ body {
     transform: scale(1.1);
     outline: 5px solid white;
 }
+
+/* FOOTER */
+.footer-custom {
+    height: 15vh;
+}
+
+.footer-link {
+    list-style-type: none;
+}
+
 
 @media screen and (max-width: 600px) {
     .header-custom {
