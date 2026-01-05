@@ -9,7 +9,7 @@ body {
 }
 
 .logo {
-    width: 40px;
+    width: 35px;
 }
 
 /* HEADER */
@@ -33,9 +33,18 @@ body {
     z-index: 11;
 }
 
+/* CARD */
+.card{
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    outline: 5px solid white;
+}
+
 @media screen and (max-width: 600px) {
     .header-custom {
-        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./media/remote_b&w.jpg');
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)), url('./media/remote_b&w.jpg');
         background-size: cover;
         background-position: center;
     }
