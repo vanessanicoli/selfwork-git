@@ -1,9 +1,22 @@
 body {
     background-color: black;
+    color: white;
 }
 
+/* NAVBAR */
+.nav-custom {
+    height: 10vh;
+}
+
+.logo {
+    width: 40px;
+}
+
+/* HEADER */
 .header-custom {
+    margin-top: 10vh;
     overflow: hidden;
+    height: 90vh;
 }
 
 .hero-content {
@@ -16,6 +29,10 @@ body {
   z-index: 5;
 }
 
+.carousel-control-prev, .carousel-control-next {
+    z-index: 11;
+}
+
 @media screen and (max-width: 600px) {
     .header-custom {
         background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./media/remote_b&w.jpg');
@@ -24,7 +41,7 @@ body {
     }
     
     .hero-content {
-        top: 10%;
+        top: 75%;
     }
 
     .overlay {
